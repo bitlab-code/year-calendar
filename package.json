@@ -1,6 +1,6 @@
 {
   "name": "js-year-calendar",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A fully customizable year calendar widget",
   "main": "./dist/js-year-calendar.js",
   "scripts": {
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/year-calendar/js-year-calendar.git"
+    "url": "git+https://github.com/bitlab-code/year-calendar.git"
   },
   "keywords": [
     "calendar",
@@ -31,9 +31,9 @@
   "author": "Paul-DS",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/year-calendar/js-year-calendar/issues"
+    "url": "https://github.com/bitlab-code/year-calendar/issues"
   },
-  "homepage": "https://year-calendar.github.io/",
+  "homepage": "https://github.com/bitlab-code/year-calendar",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-class-properties": "^7.14.5",

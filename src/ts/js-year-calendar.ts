@@ -338,16 +338,17 @@ export default class Calendar<T extends CalendarDataSourceElement> {
 			
 			this._applyEvents();
 
-			// Fade animation
-			var months = this.element.querySelector('.months-container') as HTMLElement;
-			months.style.opacity = '0';
-			months.style.display = 'flex';
-			months.style.transition = 'opacity 0.5s';
-			setTimeout(() => {
-				months.style.opacity = '1';
+			// // Fade animation
+			// var months = this.element.querySelector('.months-container') as HTMLElement;
+			// months.style.opacity = '0';
+			// months.style.display = 'flex';
+			// months.style.transition = 'opacity 0.5s';
+			// setTimeout(() => {
+			// 	months.style.opacity = '1';
 
-				setTimeout(() => months.style.transition = '', 500);
-			}, 0);
+			// 	setTimeout(() => months.style.transition = '', 500);
+			// }, 0);
+			months.style.display = 'flex';
 			
 			const currentPeriod = this.getCurrentPeriod();
 			this._triggerEvent('renderEnd', {
